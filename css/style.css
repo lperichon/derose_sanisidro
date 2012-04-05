@@ -253,10 +253,12 @@ header a {
 #logo {
   display: inline-block;
   vertical-align: top;
+  margin-left: 60px;
 }
 
 #header_right {
   float: right;
+  margin-right: 70px;
 }
 
 #header-links {
@@ -284,6 +286,12 @@ header a {
   display: inline-block;
   vertical-align: middle;
   margin-top: 30px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+
+.contact_us {
+  color: #675D0C;
 }
 
 #searchform {
@@ -336,7 +344,7 @@ footer {
 footer .column {
   display: inline-block;
   vertical-align: top;
-  padding: 9px;
+  padding: 7px;
 }
 
 footer #column1 h3{
@@ -416,7 +424,7 @@ footer #map {
 /* Main */
 
 #main {
-  width: 700px;
+  width: 800px;
   margin: 35px auto;
   color:#675d0c;
 }
@@ -584,6 +592,11 @@ footer #map {
   font-style: italic;
 }
 
+.contacto .wpcf7 {
+  width: 500px;
+  margin: 30px auto;
+}
+
 #contact_form_1 {
   background: url("../images/boton_central_cuerpo.png") no-repeat;
   display: inline-block;
@@ -625,6 +638,14 @@ footer #map {
   overflow: auto;
   margin-bottom: 50px;
   margin-top: 50px;
+}
+
+a.link-back {
+  background: url('../images/Atras.png') no-repeat;
+  height: 25px;
+  text-indent: 27px;
+  display: block;
+  line-height: 22px;
 }
 
 #main.nosotros #second-header .second-header-left h1{
@@ -673,6 +694,45 @@ footer #map {
   display: block;
 }
 
+#nosotros .personal #image {
+  margin: 10px auto;
+  width: 148px;
+  height: 148px;
+  display: block;
+}
+
+#nosotros #silvina.personal #image {
+  background: url("../images/SilvinaCircular.png");
+}
+
+#nosotros #silvina.personal:hover #image {
+  background: url("../images/Fotos-circulares_rostro_Silvina.png");
+}
+
+#nosotros #diego.personal #image {
+  background: url("../images/DiegoCircular.png");
+}
+
+#nosotros #diego.personal:hover #image {
+  background: url("../images/Fotos_circulares_rostro_Diego.png");
+}
+
+#nosotros #pamela.personal #image {
+  background: url("../images/PamelaCircular.png");
+}
+
+#nosotros #pamela.personal:hover #image {
+  background: url("../images/Fotos-circulares_rostro_Pamela.png");
+}
+
+#nosotros #martin.personal #image {
+  background: url("../images/MartinCircular.png");
+}
+
+#nosotros #martin.personal:hover #image {
+  background: url("../images/Fotos-circulares_rostro_Martin.png");
+}
+
 #nosotros .personal .vermas {
   color: #675d0c;
   float: right;
@@ -684,40 +744,31 @@ footer #map {
     margin: 0 auto;
 }
 
-.silvina {
-  background: url("../images/silvina.jpg") bottom left no-repeat;
+#background.background-diego {
+  background: url("../images/diego.jpg") bottom no-repeat;
+  background-position-x: 50%;
+  height: 350px;
+  margin-bottom: 0;
+}
+
+#background.background-silvina {
+  background: url("../images/silvina.jpg") bottom no-repeat;
+  background-position-x: 50%;
   height: 630px;
   margin-bottom: 0;
 }
 
-.silvina .content, .diego .content{
-  margin-left: 400px;
-}
-
-.martin .content, .pamela .content{
-  margin-left: 75px;
-  width: 400px;
-}
-
-.silvina #main h1, .diego #main  h1, .martin #main h1, .pamela #main h1{
-  text-align: left;
-}
-
-.diego {
-  background: url("../images/diego.jpg") bottom left no-repeat;
-  height: 500px;
-  margin-bottom: 0;
-}
-
-.martin {
-  background: url("../images/martin.jpg") bottom right no-repeat;
-  height: 630px;
-  margin-bottom: 0;
-}
-
-.pamela {
-  background: url("../images/pamela.jpg") bottom right no-repeat;
+#background.background-pamela {
+  background: url("../images/pamela.jpg") bottom no-repeat;
+  background-position-x: 50%;
   height: 580px;
+  margin-bottom: 0;
+}
+
+#background.background-martin {
+  background: url("../images/martin.jpg") bottom no-repeat;
+  background-position-x: 50%;
+  height: 630px;
   margin-bottom: 0;
 }
 
@@ -753,6 +804,36 @@ footer #map {
 .contacto textarea {
   width: 267px;
   border: 2px inset;
+}
+
+
+#main_contact_button{
+  height:63px;
+  width:470px;
+  margin:50px auto;
+  background:url("../images/Boton-central_normal.png") no-repeat;
+}
+
+#main_contact_button:hover{
+  background:url("../images/Boton-central_mouse_over.png") no-repeat;
+}
+
+#main_contact_button:active{
+  background:url("../images/Boton-central_click.png") no-repeat;
+}
+
+.facebook_logo {
+  background:url("../images/facebook_logo.jpg") no-repeat;
+  display: inline-block;
+  height: 20px;
+  width: 66px;
+}
+
+.skype_logo {
+  background:url("../images/skype_logo.png") no-repeat;
+  display: inline-block;
+  height: 20px;
+  width: 66px;
 }
 
 /*
